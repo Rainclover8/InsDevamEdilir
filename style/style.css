@@ -1,0 +1,46 @@
+:root{
+    --mainColor: #446063;
+    --secondCOlor: #CCD4DD;
+    --thirdColor: #141E1D;
+    --font-family: "Protest Revolution", sans-serif;
+    --font-weight: 900;
+    --font-style: normal;
+}
+
+
+.write{
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    font-style: var(--font-style);
+}
+  
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+min-height: 200vh;
+background-color: var(--mainColor);
+}
+.photo{
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.cardss{
+    color: var(--mainColor);
+    background-color: var(--thirdColor);
+   
+}
+
+.cardPhoto{
+    width: 100%;
+    height: 300px;
+}
+
+.yazi{
+    color: var(--secondCOlor);
+}
